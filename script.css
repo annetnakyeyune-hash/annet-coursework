@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calculator{
+    background: black;
+    width: 320px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.display{
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    padding: 15px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+button{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+.grey {background: grey;}
+.dark {background: white;}
+.orange {background: orange;}
